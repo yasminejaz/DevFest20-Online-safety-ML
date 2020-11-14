@@ -20,7 +20,7 @@ J'ai commencé d'abrod par le pretraitement des données en utilisant les diff b
 	5. Suppression des URL's dans les tweets
 	6. Elimination de la ponctuation des caracteres sepciaux s
 	7. une lemmatisation en utilisant WordNetLemmatizer de la bib Nltk 
-# Le pretraitement a etait utilisé dans le but de "nettoyer" le dataset et diminué les bruit et donc eventuellement obtenir de meilleure resultats de classification 
+# Le pretraitement a etait utilisé dans le but de "nettoyer" le dataset et diminué le bruit et donc eventuellement obtenir de meilleure resultats de classification 
 
 Les algorithmes testés sont des algorithmes de la bib Scikit-learn:
 	. MultinomialNB
