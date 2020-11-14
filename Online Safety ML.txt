@@ -28,7 +28,7 @@ Les algorithmes testés sont des algorithmes de la bib Scikit-learn:
 	. Decision Tree
 	. RandomForest
 	. SVM
-Les tests ont montrés que SVM et RandomForest ont données la meilleure accuracy, donc j'ai utilisé GridSearch pour trouvé les bonnes valeurs des arguments des deux algorithmes dans le but d'ameliorer l'accuracy . 
+Les tests ont montrés que SVM et RandomForest ont données la meilleure accuracy qui est de 88% (avec les paramateres par defaut), donc j'ai utilisé GridSearch pour trouvé les bonnes valeurs des parametres pour les deux algorithmes dans le but d'ameliorer l'accuracy . 
 
 Pour la fonction de ponderation j'ai utilisé le TF-idf vectorizer pour ses resultats obtenus avec les arguments suivant : 
 Stopwords 
@@ -36,8 +36,8 @@ max_features= 4000 (le choix de cette valeurs a etait fait apres test des differ
 ngram_range=(1,2) ( c'est le N-grammes qui a donnés les meilleures resultats avec (1,3) )
 
 ---------------------------------------------------
-Les algorithmes qui ont donnés les meilleures resultat avec les meilleures features sont : RandomForest et SVM avec : -Accuracy= 88% 
-												   - F1-score = 87%
-												   - Recall = 88%
-												   - Precision = 87%
+L'algorithme qui a donné le meilleure resultat avec les meilleures features est :SVM avec :-Accuracy= 89% 
+											     - F1-score = 88%
+											     - Recall = 89%
+											     - Precision = 88%
 
