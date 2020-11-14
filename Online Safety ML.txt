@@ -28,6 +28,7 @@ Les algorithmes testés sont des algorithmes de la bib Scikit-learn:
 	. Decision Tree
 	. RandomForest
 	. SVM
+Les tests ont montrés que SVM et RandomForest ont données la meilleure accuracy, donc j'ai utilisé GridSearch pour trouvé les bonnes valeurs des arguments des deux algorithmes dans le but d'ameliorer l'accuracy . 
 
 Pour la fonction de ponderation j'ai utilisé le TF-idf vectorizer pour ses resultats obtenus avec les arguments suivant : 
 Stopwords 
